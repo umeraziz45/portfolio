@@ -10,47 +10,55 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-
+  
 </head>
 <body>
-
-  <!-- Header/Nav -->
-  
-  <header class="header-section">
+  <div class="header-container">
+    <!-- Header/Nav -->
     
-    <div class="header_logo">
+    <header class="header-section">
+      
+      <div class="header_logo">
+      
+        <i class="fa-solid fa-code"></i>
+      
+      </div>
     
-      <i class="fa-solid fa-code"></i>
+      <button class="nav-toggle" aria-label="Toggle Navigation">
+        <span class="header_hamburger"></span>
+      </button>
     
-    </div>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li class="header_nav-item"> <a href="#home">Home</a> </li>
+          <li class="header_nav-item"><a href="#about-me">About Me</a></li>
+          <li class="header_nav-item"><a href="#skills">Skills</a></li>
+          <li class="header_nav-item"><a href="#projects">Project</a></li>
+          <li class="header_nav-item"><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    
+    </header>
+    
+    <!-- Intoduction -->
+    
+      <section class="intro" id="home">
+        <div class="intro-content">
+          <h1 class="section__title section__title--intro">
+              Hi, I am <strong>Umer Aziz</strong>
+          </h1>
+          <p class="section_subtitle--intro  ">front-end dev</p>
+          <div class="intro-down-button">
+            <a href="#about-me">
+              <i class="fa-solid fa-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+    </section>
 
-    <button class="nav-toggle" aria-label="Toggle Navigation">
-      <span class="header_hamburger"></span>
-    </button>
-
-    <nav class="header_nav">
-      <ul class="header_nav-list">
-        <li class="header_nav-item"> <a href="#home">Home</a> </li>
-        <li class="header_nav-item"><a href="#about-me">About Me</a></li>
-        <li class="header_nav-item"><a href="#skills">Skills</a></li>
-        <li class="header_nav-item"><a href="#projects">Project</a></li>
-        <li class="header_nav-item"><a href="#footer">Contact</a></li>
-      </ul>
-    </nav>
-
-  </header>
-
-  <!-- Intoduction -->
-
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-          Hi, I am <strong>Umer Aziz</strong>
-      </h1>
-      <p class="section_subtitle section__subtitle--intro ">front-end dev</p>
-      <img src="./Screenshot from 2022-02-13 00-03-18.png" alt=" Art depicting various programming-related logos" class="intro__img">
-  </section>
+  </div>
 
     
   <!-- About Me -->
@@ -64,14 +72,27 @@
       <p class="section_subtitle about-me_subtitle">A front-end developer based out of Calgary, Alberta</p>
   
       <div class="about-me_body">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, eveniet reprehenderit enim rem animi, quam facere, veniam dolor beatae delectus fugiat laudantium itaque deserunt molestias sed ipsa nobis officiis. Ut.
-        Placeat debitis, aperiam maxime earum impedit sed illum inventore! Sed tenetur dignissimos reiciendis at placeat in provident voluptas unde repudiandae. Earum, dignissimos. Quae error numquam atque iure, eum hic veniam?</p>
+        <p>Hello! my name is Umer and I am a programmer passionate about creating responsive and accessible websites and applications </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe similique quam a cum minima aliquid. Aliquid animi omnis voluptates, officia at qui eius delectus quas, repudiandae quam iure totam in!
         Ducimus, nihil, fuga, veniam ipsum accusamus quisquam consectetur molestiae dolore atque itaque soluta voluptate! A modi perspiciatis inventore? Sequi placeat autem dolorem neque voluptatum nam ab ipsum fuga adipisci minus.</p>
       </div>
   
       <img src="./1593192070077.jpeg" alt="Photo of me" class="about-me_img">
+
+      <div class="about-me_links">
+        <div class="about-me_resume">
+          <a href="./Your Resume.pdf" target="blank" title="Click to take a look at Umer Aziz's Resume">
+            <i class="fa-solid fa-file"></i>
+          </a>
+        </div>
+        <div class="about-me_blog">
+          <a href="https://medium.com/@umeraziz4545/scratching-that-itch-9b97a69727bd" target="blank" title="Click to read Umer Aziz's article on Medium">
+            <i class="fa-solid fa-newspaper"></i>
+          </a>
+        </div>
+      </div>
     </div>
+
 
 
   </section>
@@ -144,43 +165,64 @@
   <section class="projects-section" id="projects">
     
     <h2 class="projects-title">Projects</h2>
-    <div class="projects-section_wrapper wrapper">
 
+    <div class="project-details">
 
-      <div class="carousel">
-
-        <button class="carousel_button carousel-button--left">
-          <img class="carousel-button-img" src="./left-arrow-svgrepo-com.svg" alt="">
-        </button>
-
-        <div class="carousel_track-container">
-          <ul class="carousel-track">
-            <li class="carousel_slide">
-              <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="project 1 - React memory Game">
-            </li>
-            <li class="carousel _slide">
-              <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="project 2 - React Budget tracker app">
-            </li>
-            <li class="carousel_slide">
-              <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="project 3 - vanilla js audio to text">
-            </li>
-            <li class="carousel_slide">
-              <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="proj 4 - vanilla js Job Search app">
-            </li>
-          </ul>
-        </div>
-        <button class="carousel_button carousel-button--right">
-          <img class="carousel-button-img" src="./right-arrow-svgrepo-com.svg" alt="">
-        </button>
+      <div class="projects-section_wrapper ">
   
-        <div class="carousel_nav">
-          <button class="carousel_indicator current_slide"></button>
-          <button class="carousel_indicator"></button>
-          <button class="carousel_indicator"></button>
-          <button class="carousel_indicator"></button>
-        </div>
+        
+        <div class="carousel">
   
+          <button class="carousel_button carousel-button--left is-hidden">
+            <img class="carousel-button-img" src="./left-arrow-svgrepo-com.svg" alt="">
+          </button>
+  
+          <div class="carousel_track-container">
+            <ul class="carousel-track">
+              <li class="carousel_slide current-slide">
+                <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="project 1 - React memory Game">
+              </li>
+              <li class="carousel _slide">
+                <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="project 2 - React Budget tracker app">
+              </li>
+              <li class="carousel_slide">
+                <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="project 3 - vanilla js audio to text">
+              </li>
+              <li class="carousel_slide">
+                <img class="carousel-image" src="./large-Sea-Otter-photo.jpg" alt="proj 4 - vanilla js Job Search app">
+              </li>
+            </ul>
+          </div>
+  
+          <button class="carousel_button carousel-button--right">
+            <img class="carousel-button-img" src="./right-arrow-svgrepo-com.svg" alt="">
+          </button>
+    
+          <div class="carousel_nav">
+            <button class="carousel_indicator current-slide"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+            <button class="carousel_indicator"></button>
+          </div>
+    
+        </div>
+        
       </div>
+
+      <div class="project-text">
+        <h3 class="project-heading">Concentration!</h3>
+        <p class="project-description">A mix and match game with a set of flippable cards. Users flip a card for a short amount of time before it returns to tis orignial position. The rinse and repeat until they can match each card to its identical counterpart</p>
+        <p class="project-tech"> Built With: HTML, CSS, and React </p>
+        <div class="project-links">
+          <a href="https://github.com/umeraziz45" class="project-github" target="blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="http://www.umerthedeveloper.ca/" class="project-demo" target="blank">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
     </div>
 
   </section>
@@ -188,13 +230,18 @@
   <!-- Footer -->
 
   <footer class="footer-section" id="footer">
-    <a href="mailto:umeraziz4545@gmail.com" class="footer_mail-link">umeraziz4545@gmail.com</a>
+    <p class="footer-text">Lets Get In Touch!</p>
     <ul class="footer_social-list">
       <li class="footer_list-item">
         <a href="https://github.com/umeraziz45" class="footer_list-link" target="_blank"><i class="fa-brands fa-github"></i></a>
       </li>
       <li class="footer_list-item">
         <a href="https://www.linkedin.com/in/umer-aziz45/" class="footer_list-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </li>
+      <li class="footer_list-item">
+        <a href="mailto:umeraziz4545@gmail.com" class="footer_list-link">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
       </li>
     </ul>
   </footer>
