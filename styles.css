@@ -224,7 +224,7 @@ h3 {
 /* Introduction */
 
 .intro {
-  background-image: url(./pexelsphoto205316.jpeg);
+  background-image: url(./assets/pexelsphoto205316.jpeg);
   background-size: cover;
   min-height: 93vh;
   background-position: center center;
@@ -380,6 +380,7 @@ h3 {
   align-items: center;
   margin: 0;
   padding: 0;
+  min-width: 90%;
 }
 
 .skils-section_item {
