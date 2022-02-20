@@ -244,6 +244,11 @@ h3 {
 .intro-down-button,
 .section_subtitle--intro {
   font-size: 1.4rem;
+  color: var(--clr-accent);
+}
+
+.intro-down-button .fa-arrow-down:hover {
+  opacity: .4;
 }
 
 .section__title--intro,
@@ -285,6 +290,14 @@ h3 {
   display: flex;
   flex-direction: row;
   margin-top: 10px;
+}
+
+.about-me_links .fa-solid {
+  color: var(--clr-accent);
+}
+
+.about-me_links .fa-solid:hover {
+  opacity: .4;
 }
 
 .about-me_resume {
