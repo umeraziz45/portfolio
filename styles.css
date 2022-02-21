@@ -292,11 +292,13 @@ h3 {
   margin-top: 10px;
 }
 
-.about-me_links .fa-solid {
+.fa-file,
+.fa-brands {
   color: var(--clr-accent);
 }
 
-.about-me_links .fa-solid:hover {
+.fa-file:hover,
+.fa-brands:hover {
   opacity: .4;
 }
 
@@ -345,7 +347,7 @@ h3 {
   .about-me_links { 
     margin-top: 25%;
     display: flex;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
 }
