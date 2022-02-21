@@ -293,12 +293,14 @@ h3 {
 }
 
 .fa-file,
-.fa-brands {
+.fa-brands,
+.fa-external-link-alt {
   color: var(--clr-accent);
 }
 
 .fa-file:hover,
-.fa-brands:hover {
+.fa-brands:hover,
+.fa-external-link-alt:hover {
   opacity: .4;
 }
 
