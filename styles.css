@@ -444,7 +444,7 @@ h3 {
 }
 
 .carousel-image {
-  height: 100%;
+  height: 600px;
   object-fit: cover;
 }
 
