@@ -27,14 +27,12 @@ const dots = Array.from(dotsNav.children);
 
 const projectData = [
   {
-    name: "Concentration!",
-    description: `A mix and match game with a set of flippable cards.
-    Users flip a card for a short amount of time before it returns to tis orignial position. 
-    The rinse and repeat until they can match each card to its identical counterpart`,
-    image: "large-Sea-Otter-photo.jpg",
+    name: "Heroes of Roshar",
+    description: `A game of mix and match based off the book series 'The Stormlight Archive'. `,
+    image: "mix-match.png",
     tech: "HTML, CSS, and React",
-    github: "https://github.com/umeraziz45",
-    liveLink: "http://www.umerthedeveloper.ca/"
+    github: "https://github.com/umeraziz45/mix-match-game",
+    liveLink: "https://heroes-of-roshar.netlify.app/"
   },
   {
     name: "Paper Trail",
@@ -54,7 +52,7 @@ const projectData = [
     liveLink: ""
   },
   {
-    name: "!",
+    name: "!sss",
     description: `A mix and match game with a set of flippable cards.
     Users flip a card for a short amount of time before it returns to tis orignial position. 
     The rinse and repeat until they can match each card to its identical counterpart`,
