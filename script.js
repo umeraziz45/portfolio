@@ -28,7 +28,7 @@ const dots = Array.from(dotsNav.children);
 const projectData = [
   {
     name: "Heroes of Roshar",
-    description: `A game of mix and match based off the book series 'The Stormlight Archive'. `,
+    description: `A game of mix and match based off the book series 'The Stormlight Archive'. The user, through trial and error, selects cards until they match all six images with their indentical counterparts. The amount of turns they take are displayed as well. Starting a new game shuffles the cards and resets the turn counter  `,
     image: "mix-match.png",
     tech: "HTML, CSS, and React",
     github: "https://github.com/umeraziz45/mix-match-game",
