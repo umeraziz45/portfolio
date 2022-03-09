@@ -28,16 +28,15 @@ const dots = Array.from(dotsNav.children);
 const projectData = [
   {
     name: "Heroes of Roshar",
-    description: `A game of mix and match based off the book series 'The Stormlight Archive'. The user, through trial and error, selects cards until they match all six images with their indentical counterparts. The amount of turns they take are displayed as well. Starting a new game shuffles the cards and resets the turn counter  `,
+    description: `A game of mix and match based off the book series 'The Stormlight Archive'. The user, through trial and error, selects cards until they match all six images with their identical counterparts. The amount of turns they take are displayed as well. Starting a new game shuffles the cards and resets the turn counter  `,
     image: "mix-match.png",
     tech: "HTML, CSS, and React",
     github: "https://github.com/umeraziz45/mix-match-game",
     liveLink: "https://heroes-of-roshar.netlify.app/"
   },
   {
-    name: "Paper Trail",
-    description: `A site where you can input and store financial transactions ofr a unique user account
-    by using Firebase Authentication to log in.`,
+    name: "Recipe Wiki",
+    description: `A directory where the user can store recipe information (ingredients, method, cooking time) as well as search for a specific recipe they stored previously`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, Firebase, and React",
     github: "",
@@ -45,17 +44,15 @@ const projectData = [
   },
   {
     name: "Speech to Text",
-    description: `A site where you can input text that will be converted to audio and played on your computer or phone.
-    This site uses an API`,
+    description: `Using an API, the user can convert text they input into audio. Also, includes common speech prompts user can press for instant use`,
+    image: "",
     tech: "HTML, CSS, and Vanilla JS",
     github: "",
     liveLink: ""
   },
   {
-    name: "!sss",
-    description: `A mix and match game with a set of flippable cards.
-    Users flip a card for a short amount of time before it returns to tis orignial position. 
-    The rinse and repeat until they can match each card to its identical counterpart`,
+    name: "Paper Trail",
+    description: `A site where you can input and store financial transactions for a unique user account by using Firebase Authentication to log in.`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, and React",
     github: "",
