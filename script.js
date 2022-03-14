@@ -36,9 +36,8 @@ const projectData = [
   },
   {
     name: "Recipe Wiki",
-    description: `A directory where the user can store recipe information (ingredients, method, cooking time) as well as search for a specific recipe they stored previously
-    
-    The information is stored on a json server. Everytime user creates a recipe, a POST method adds the new addition to the database, which then displays it on the website.`,
+    description: `A directory where the user can store recipe information (ingredients, method, cooking time) as well as search for a specific recipe they stored previously. 
+    The information is stored on a json server. Everytime the user creates a recipe, a POST method adds the new addition to the database, which then displays it on the website.`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, Firebase, and React",
     github: "https://github.com/umeraziz45/cookingWiki",

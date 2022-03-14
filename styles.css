@@ -194,7 +194,7 @@ h3 {
   background: transparent;
   border: 0;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   right: 1em;
   top: 1em;
   z-index: 1000;
@@ -254,6 +254,28 @@ h3 {
 .section__title--intro,
 .section_subtitle--intro {
   color: var(--clr-dark);
+  overflow: hidden;
+  /* border-right: .15em solid var(--clr-accent); */
+  margin: 0 auto;
+  letter-spacing: .15em;
+  white-space: nowrap;
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+.section__title--intro {
+  border-right: .15em solid var(--clr-accent);
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--clr-accent) }
 }
 
 @media (max-width: 432px) {
