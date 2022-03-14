@@ -39,8 +39,8 @@ const projectData = [
     description: `A directory where the user can store recipe information (ingredients, method, cooking time) as well as search for a specific recipe they stored previously`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, Firebase, and React",
-    github: "",
-    liveLink: ""
+    github: "https://github.com/umeraziz45/cookingWiki",
+    liveLink: "https://recipewiki.netlify.app/"
   },
   {
     name: "Speech to Text",
@@ -51,12 +51,12 @@ const projectData = [
     liveLink: ""
   },
   {
-    name: "Paper Trail",
-    description: `A site where you can input and store financial transactions for a unique user account by using Firebase Authentication to log in.`,
+    name: "TechOccupy",
+    description: `A tech-focused jobs board where you can search for listings in major North American cities. Users can filter search results by job location, experience level, and the field that they want to apply to.`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, and React",
-    github: "",
-    liveLink: ""
+    github: "https://github.com/Paired-Project-Two/techOccupy",
+    liveLink: "https://techoccupy.netlify.app/"
   }
 ]
 
