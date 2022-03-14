@@ -376,9 +376,9 @@ h3 {
 
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 880px) {
   .about-me_subtitle {
-    padding-bottom: 3.5em;
+    padding-bottom: 5em;
     margin-bottom: 0.5em;
   }
 }
