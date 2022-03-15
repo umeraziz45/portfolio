@@ -48,8 +48,8 @@ const projectData = [
     description: `Using an API, the user can convert text they input into audio. Also, includes common speech prompts user can press for instant use`,
     image: "",
     tech: "HTML, CSS, and Vanilla JS",
-    github: "",
-    liveLink: ""
+    github: "https://github.com/umeraziz45/voxMachina",
+    liveLink: "https://voxmachina.netlify.app/"
   },
   {
     name: "TechOccupy",

@@ -308,6 +308,10 @@ h3 {
   font-size: 1.6rem;
 }
 
+.about-me_body:first-of-type {
+  margin-top: 0;
+}
+
 .about-me_links {
   display: flex;
   flex-direction: row;
