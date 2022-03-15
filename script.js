@@ -53,7 +53,7 @@ const projectData = [
   },
   {
     name: "TechOccupy",
-    description: `A tech-focused jobs board where you can search for listings in major North American cities. Users can filter search results by job location, experience level, and the field that they want to apply to.`,
+    description: `A tech-focused jobs board where you can search for listings in major North American cities. Users can filter search results by job location, experience level, and the field that they want to apply to. Made in collaboration with Antoni Ibrahimi`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, and React",
     github: "https://github.com/Paired-Project-Two/techOccupy",
