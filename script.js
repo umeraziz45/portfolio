@@ -44,7 +44,7 @@ const projectData = [
     liveLink: "https://recipewiki.netlify.app/"
   },
   {
-    name: "Vox Machine - Text to Speech",
+    name: "Vox Machina - Text to Speech",
     description: `Using an API, the user can convert text they input into audio. Also, includes common speech prompts user can press for instant use`,
     image: "",
     tech: "HTML, CSS, and Vanilla JS",
