@@ -265,7 +265,7 @@ h3 {
 }
 
 .section__title--intro {
-  border-right: .15em solid var(--clr-accent);
+  /* border-right: .15em solid var(--clr-accent); */
 }
 
 @keyframes typing {
