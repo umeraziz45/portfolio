@@ -315,7 +315,6 @@ h3 {
 .about-me_links {
   display: flex;
   flex-direction: column;
-  font-size: .5rem;
 }
 
 .fa-file,
@@ -376,7 +375,11 @@ h3 {
 
   .about-me_links { 
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .about-me_body > :first-child {
+    margin-top: 0;
   }
 
 }
@@ -385,6 +388,9 @@ h3 {
   .about-me_subtitle {
     padding-bottom: 5em;
     margin-bottom: 0.5em;
+  }
+  .about-me_links {
+    margin-top: 20px;
   }
 }
 
