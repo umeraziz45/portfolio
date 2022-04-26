@@ -40,7 +40,7 @@ const projectData = [
     The information is stored on a json server. Everytime the user creates a recipe, a POST method adds the new addition to the database, which then displays it on the website.`,
     image: "large-Sea-Otter-photo.jpg",
     tech: "HTML, CSS, and React",
-    github: "https://github.com/umeraziz45/cookingWiki",
+    github: "https://recipewiki.netlify.app",
     liveLink: "https://umeraziz45.github.io/cookingWiki/"
   },
   {
